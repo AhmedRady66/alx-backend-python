@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""File find length of list"""
+"""File of Duck typing"""
 from typing import Iterable, List, Tuple, Sequence
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
-    """Return length of list"""
+    """Return Duck typing"""
     return [(i, len(i)) for i in lst]
