@@ -2,8 +2,8 @@
 """ Parameterize and patch as decorators
 """
 from client import GithubOrgClient
-from fixtures import TEST_PAYLOAD  # type: ignore
-from parameterized import parameterized, parameterized_class  # type: ignore
+from fixtures import TEST_PAYLOAD
+from parameterized import parameterized, parameterized_class
 import unittest
 from unittest.mock import patch, PropertyMock
 
