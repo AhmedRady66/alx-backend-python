@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Parameterize a unit test
 """
-from parameterized import parameterized
+from parameterized import parameterized # type: ignore
 import unittest
 from unittest.mock import patch
 
